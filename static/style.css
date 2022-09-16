@@ -1,0 +1,63 @@
+.rc {
+  position: absolute;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width:25%;
+  height: 30%;
+}
+#up{
+  position: absolute;
+  top:10%;
+  left: 37%;
+}
+#down{
+  position: absolute;
+  top: 45%;
+  left: 37%;
+}
+#up-left{
+  position: absolute;
+  top:10%;
+  left: 5%;
+}
+
+#up-right{
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+#down-right{
+  position: absolute;
+  top: 45%;
+  left: 70%;
+}
+#down-left{
+  position: absolute;
+  top:45%;
+  left: 5%;
+}
+#stop{
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  height: 5%;
+  width: 5%;
+}
+.rc:active{
+  background-color: #005234;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}

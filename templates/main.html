@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='style.css') }}"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div><form method="post" action="/">
+      <input type="submit" name="submit_rc" value="up" class="rc" id="up" />
+      <input type="submit" name="submit_rc" value="down" class="rc" id="down" />
+
+      <input
+        type="submit"
+        name="submit_rc"
+        value="up-left"
+        class="rc"
+        id="up-left"
+      />
+      <input
+        type="submit"
+        name="submit_rc"
+        value="up-right"
+        class="rc"
+        id="up-right"
+      />
+      <input
+        type="submit"
+        name="submit_rc"
+        value="down-left"
+        class="rc"
+        id="down-left"
+      />
+      <input
+        type="submit"
+        name="submit_rc"
+        value="down-right"
+        class="rc"
+        id="down-right"
+      />
+      <input
+        type="submit"
+        name="submit_rc"
+        value="stop"
+        class="rc"
+        id="stop"
+      />
+    </div></form>                                                                                                                                                   
+  </body>
+</html>
